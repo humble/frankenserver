@@ -419,6 +419,13 @@ _SUPPORTED_LIBRARIES = [
         experimental_versions=['1.5'],
         ),
     _VersionedLibrary(
+        'enum',
+        'https://pypi.python.org/pypi/enum34',
+        'A backport of the enum module introduced in python 3.4',
+        ['0.9.23'],
+        latest_version='0.9.23',
+        ),
+    _VersionedLibrary(
         'endpoints',
         'https://developers.google.com/appengine/docs/python/endpoints/',
         'Libraries for building APIs in an App Engine application.',
